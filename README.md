@@ -42,6 +42,13 @@ High Volume For-Hire Vehicles (introduced in early 2019 to make a distinction fo
 </details>
 
 <details>
+  <summary>Unfeasible volume of data had to be sampled </summary>
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The volume of data was not feasible for this context. There are two popular sampling techniques, random sampling, and systematic sampling -- 
+systematic sampling was chosen based on simplicity of implementation: <br /> https://www.investopedia.com/ask/answers/071615/when-it-better-use-systematic-over-simple-random-sampling.asp
+</details>
+
+<details>
   <summary>UX Simplification to not explicitly allow filter by category of Yellow, Green, Rideshare(click for details) </summary>
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Instead all the information (trip price and trip time averages are returned in a table for all three categories, which is a more inuitive user experience. This is preferable over giving users another filter of category in addition to Borough, and datetime. example: <br />
