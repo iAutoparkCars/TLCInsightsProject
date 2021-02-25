@@ -42,6 +42,12 @@ High Volume For-Hire Vehicles (introduced in early 2019 to make a distinction fo
 </details>
 
 <details>
+  <summary>Simplification of the UI </summary>
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Initially a graphical interface was considered (with charts showing historical data based on ride volume over the months), but then when more planning was done, it was realized that was outside of budget constraint
+</details>
+
+<details>
   <summary>Hosting database in the cloud </summary>
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Large dataset is tedious if operations are performed all in memory locally; this is also tedious for a user to download large dataset to run a CLI script, so the decision was made to move the querying funcionality into a cloud database.
@@ -79,10 +85,4 @@ systematic sampling was chosen based on simplicity of implementation: <br /> htt
   <summary>Simplification of datetime </summary>
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; When users search by datetime filter, there is only option to search by date (not by time at a specific date as that is too granular)
-</details>
-
-<details>
-  <summary>Simplification of the UI </summary>
-  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Initially a graphical interface was considered (with charts showing historical data based on ride volume over the months), but then when more planning was done, it was realized that was outside of budget constraint
 </details>
