@@ -70,6 +70,12 @@ systematic sampling was chosen based on simplicity of implementation: <br /> htt
 </details>
 
 <details>
+  <summary>Script vs Compiled language </summary>
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Picked less verbose language Python because of time constraint
+</details>
+
+<details>
   <summary>Simplification of datetime </summary>
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; When users search by datetime filter, there is only option to search by date (not by time at a specific date as that is too granular)
