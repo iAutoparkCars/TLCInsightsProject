@@ -1,0 +1,34 @@
+﻿Starting new month 1
+1 1000000 RangeIndex(start=0, stop=1000000, step=1)
+2 1000000 RangeIndex(start=1000000, stop=2000000, step=1)
+3 1000000 RangeIndex(start=2000000, stop=3000000, step=1)
+4 1000000 RangeIndex(start=3000000, stop=4000000, step=1)
+5 1000000 RangeIndex(start=4000000, stop=5000000, step=1)
+6 1000000 RangeIndex(start=5000000, stop=6000000, step=1)
+7 405008 RangeIndex(start=6000000, stop=6405008, step=1)
+176 rows inserted into dbo.yellow_tripdata
+	 Starting new month 2
+1 1000000 RangeIndex(start=0, stop=1000000, step=1)
+2 1000000 RangeIndex(start=1000000, stop=2000000, step=1)
+3 1000000 RangeIndex(start=2000000, stop=3000000, step=1)
+4 1000000 RangeIndex(start=3000000, stop=4000000, step=1)
+5 1000000 RangeIndex(start=4000000, stop=5000000, step=1)
+6 1000000 RangeIndex(start=5000000, stop=6000000, step=1)
+7 299354 RangeIndex(start=6000000, stop=6299354, step=1)
+176 rows inserted into dbo.yellow_tripdata
+	 Starting new month 3
+1 1000000 RangeIndex(start=0, stop=1000000, step=1)
+2 1000000 RangeIndex(start=1000000, stop=2000000, step=1)
+3 1000000 RangeIndex(start=2000000, stop=3000000, step=1)
+4 7292 RangeIndex(start=3000000, stop=3007292, step=1)
+101 rows inserted into dbo.yellow_tripdata
+	 Starting new month 4
+1 237993 RangeIndex(start=0, stop=237993, step=1)
+26 rows inserted into dbo.yellow_tripdata
+	 Starting new month 5
+1 348371 RangeIndex(start=0, stop=348371, step=1)
+26 rows inserted into dbo.yellow_tripdata
+	 Starting new month 6
+1 549760 RangeIndex(start=0, stop=549760, step=1)
+26 rows inserted into dbo.yellow_tripdata
+...
