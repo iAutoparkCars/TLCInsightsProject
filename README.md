@@ -32,7 +32,7 @@ Run scripts: <br />
 In order to complete the core functional requirements
 * Distinction between Yellow Cab, Green Cab, For hire vehicles
 * allow users to specify start, end Boroughs
-* allow users to speicfy start, end times
+* allow users to specify start, end times
 
 <details>
   <summary>Simplification was done For-hire category (click for details) </summary>
@@ -59,4 +59,10 @@ High Volume For-Hire Vehicles (introduced in early 2019 to make a distinction fo
   <summary>Simplification of datetime </summary>
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; When users search by datetime filter, there is only option to search by date (not by time at a specific date as that is too granular)
+</details>
+
+<details>
+  <summary>Simplification of the UI </summary>
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Initially a graphical interface was considered (which charts showing historical data), but then when more planning was done, it was realized that was outside of budget constraint
 </details>
