@@ -1,5 +1,5 @@
 ## TLCInsights CLI
-Shell script that offers transportation insights using TLC NYC data 
+CLI script that offers transportation insights using TLC NYC data 
 
 #### Approach
 For each type of transport _Yellow Cab, Green, Cab_, and _Ridesharing_, return an estimate of 
