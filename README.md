@@ -42,6 +42,13 @@ High Volume For-Hire Vehicles (introduced in early 2019 to make a distinction fo
 </details>
 
 <details>
+  <summary>Hosting database in the cloud </summary>
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Large dataset is tedious if operations are performed all in memory locally; this is also tedious for a user to download large dataset to run a CLI script, so the decision was made to move the querying funcionality into a cloud database.
+Another decision was AWS vs Azure -- Azure was chosen for a new learning experience
+</details>
+
+<details>
   <summary>Unfeasible volume of data had to be sampled </summary>
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The volume of data was not feasible for this context. There are two popular sampling techniques, random sampling, and systematic sampling -- 
