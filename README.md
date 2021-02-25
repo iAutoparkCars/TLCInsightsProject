@@ -64,5 +64,5 @@ High Volume For-Hire Vehicles (introduced in early 2019 to make a distinction fo
 <details>
   <summary>Simplification of the UI </summary>
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Initially a graphical interface was considered (which charts showing historical data), but then when more planning was done, it was realized that was outside of budget constraint
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Initially a graphical interface was considered (with charts showing historical data based on ride volume over the months), but then when more planning was done, it was realized that was outside of budget constraint
 </details>
