@@ -54,3 +54,9 @@ High Volume For-Hire Vehicles (introduced in early 2019 to make a distinction fo
 +---------------+------------+------------+-------------+
 ```
 </details>
+
+<details>
+  <summary>Simplification of datetime </summary>
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; When users search by datetime filter, there is only option to search by date (not by time at a specific date as that is too granular)
+</details>
