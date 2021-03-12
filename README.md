@@ -1,5 +1,5 @@
 ## TLCInsights CLI
-Shell script that offers transportation insights using TLC NYC data 
+CLI script that offers transportation insights using TLC NYC data 
 
 #### Approach
 For each type of transport _Yellow Cab, Green, Cab_, and _Ridesharing_, return an estimate of 
@@ -32,13 +32,33 @@ Run scripts: <br />
 In order to complete the core functional requirements
 * Distinction between Yellow Cab, Green Cab, For hire vehicles
 * allow users to specify start, end Boroughs
-* allow users to speicfy start, end times
+* allow users to specify start, end times
 
 <details>
   <summary>Simplification was done For-hire category (click for details) </summary>
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I disregard the small subset of For Hire-vehicles (ie. Black Cab) and only considered
 High Volume For-Hire Vehicles (introduced in early 2019 to make a distinction for ridesharing companies like Uber, Lyft), which make up the vast majority of For-Hire category -- in the CLI script, this category is just named 'Ridesharing'
+</details>
+
+<details>
+  <summary>Simplification of the UI </summary>
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Initially a graphical interface was considered (with charts showing historical data based on ride volume over the months), but then when more planning was done, it was realized that was outside of budget constraint
+</details>
+
+<details>
+  <summary>Hosting database in the cloud </summary>
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Large dataset is tedious if operations are performed all in memory locally; this is also tedious for a user to download large dataset to run a CLI script, so the decision was made to move the querying funcionality into a cloud database.
+Another decision was AWS vs Azure -- Azure was chosen for a new learning experience
+</details>
+
+<details>
+  <summary>Unfeasible volume of data had to be sampled </summary>
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The volume of data was not feasible for this context. There are two popular sampling techniques, random sampling, and systematic sampling -- 
+systematic sampling was chosen based on simplicity of implementation: <br /> https://www.investopedia.com/ask/answers/071615/when-it-better-use-systematic-over-simple-random-sampling.asp
 </details>
 
 <details>
@@ -53,4 +73,16 @@ High Volume For-Hire Vehicles (introduced in early 2019 to make a distinction fo
 | average price |   $18.7    |   $20.42   |    $20.42   |
 +---------------+------------+------------+-------------+
 ```
+</details>
+
+<details>
+  <summary>Script vs Compiled language </summary>
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Picked less verbose language Python because of time constraint
+</details>
+
+<details>
+  <summary>Simplification of datetime </summary>
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; When users search by datetime filter, there is only option to search by date (not by time at a specific date as that is too granular)
 </details>
