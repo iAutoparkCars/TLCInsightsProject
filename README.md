@@ -19,10 +19,10 @@ some middleware (ie. microservice) would query the database
     from borough to borough in NYC for green taxis, yellow taxis, and ridesharing (for-hire) <br />
 
 #### How to run
-Install Python dependencies from `requirements.txt` manually or with virtual environment: <br />
+Install Python dependencies from `environment.yml` manually or with `conda` virtual environment: <br />
 * Manual: `pip install dependency-name` or <br />
-* Virtual Env: install dependencies from `requirements.txt` in a virtual Python environment. <br />
-More details of how to set up virtual environment found here https://docs.python.org/3/tutorial/venv.html
+* Conda Virtual Env: install dependencies from `environment.yml` in a virtual Python environment. <br />
+More details of how to set up virtual environment found here https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
 Run scripts: <br />
 * `python main.py` To run core functionality (CLI) <br />
